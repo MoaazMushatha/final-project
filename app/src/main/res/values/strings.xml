@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="search_your_favorite_food">Search your favorite food</string>
+    <string name="categories">Categories</string>
+    <string name="order_now">Order Now</string>
+    <string name="jan_12_feb_10">jan 12 - feb 10</string>
+    <string name="up_to_49_off">Up to 49% off</string>
+    <string name="see_more">See More</string>
+    <string name="recommended">Recommended</string>
+    <string name="hi_leonardo">Hi leonardo</string>
+    <string name="title">title</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="profile1">Profile</string>
+
+    <string name="dateofbirth">Date Of Birth</string>
+
+
+    <string name="category">Category :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remember_me">Remember me!</string>
+    <string name="_0_0">$0.0</string>
+    <string name="textview">TextView</string>
+    <string name="pricemeal">PriceMeal:</string>
+    <string name="update_meals">Update Meals</string>
+    <string name="addnametomeal">addNameToMeal</string>
+    <string name="addtheprice">addThePrice</string>
+    <string name="addphototomeal">addPhotoToMeal</string>
+    <string name="namemeal">NameMeal:</string>
+    <string name="_19_50">$19.50</string>
+    <string name="totalprice">TotalPrice</string>
+    <string name="add_meals">Add Meals</string>
+</resources>

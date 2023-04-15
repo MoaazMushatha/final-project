@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEBE6"
+    tools:context=".activity.AddMealActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pricemeal"
+        android:textColor="#262727"
+        android:fontFamily="@font/delius"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/et_new_meal_price"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/et_new_meal_price" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:fontFamily="@font/delius"
+
+        android:textColor="#262727"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/sv_new_meal_category"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/sv_new_meal_category" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/add_meals"
+        android:fontFamily="@font/allerta_stencil"
+        android:textAlignment="center"
+        android:textColor="@color/orang"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/et_new_meal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="11"
+        android:hint="@string/addnametomeal"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/iv_choose_new"
+        app:layout_constraintTop_toBottomOf="@+id/iv_choose_new"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_new_meal_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="11"
+        android:hint="@string/addtheprice"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/et_new_meal_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_new_meal_name"
+        tools:ignore="Autofill" />
+
+    <Spinner
+        android:id="@+id/sv_new_meal_category"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="11"
+        android:inputType="textPersonName"
+        android:textColorHint="#90070000"
+        app:layout_constraintEnd_toEndOf="@+id/et_new_meal_price"
+        app:layout_constraintStart_toStartOf="@+id/et_new_meal_price"
+        app:layout_constraintTop_toBottomOf="@+id/et_new_meal_price" />
+
+    <ImageView
+        android:id="@+id/iv_choose_new"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="NameMeal:"
+        android:fontFamily="@font/delius"
+        android:textColor="#262727"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/et_new_meal_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_new_meal_name"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:background="@drawable/button"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sv_new_meal_category" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
